@@ -1,0 +1,55 @@
+
+.navbar {
+    background-color: #0A1828; 
+    padding: 15px 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex; /* Horizontal layout for links */
+    gap: 30px; /* Space between links */
+  }
+  
+  nav a {
+    margin: 10px;
+    color: #FFFFFF; /* White text color for contrast against dark background */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Standard font size for readability */
+    padding: 10px 15px; /* Add padding around links for better clickability */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover and active effects */
+  }
+  
+  nav a:hover {
+    background-color: #178582; /* Turquoise background on hover to signify interactivity */
+    color: #FFFFFF; /* Keep text white on hover */
+  }
+  
+  nav a.active {
+    font-weight: bold; 
+    background-color: #BFA181; 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; 
+      align-items: flex-start; 
+      gap: 10px;
+    }
+  
+    nav {
+      flex-direction: column; /* Stack nav links vertically on smaller screens */
+      width: 100%; /* Full width navigation links on mobile devices */
+      gap: 10px;
+      margin-top: 10px;
+      align-items:center;
+    
+  }
+  
+  nav a {
+      width:auto;
+  }
+}

@@ -1,0 +1,42 @@
+img {
+    
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .subhead{
+    
+    margin: 5rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #000;
+  }
+  .home-container{
+    padding: auto;
+  }
+  /* button.css */
+.btn {
+    background-color: #007bff; /* Primary Blue */
+    color: white;
+    margin: 0.5rem;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker Blue */
+  }
+  
+  .btn:active {
+    background-color: #003d80;
+    transform: scale(0.95);
+  }
+  
